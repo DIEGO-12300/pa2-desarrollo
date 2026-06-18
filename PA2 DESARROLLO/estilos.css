@@ -1,0 +1,263 @@
+body{
+    background-image: url(img/personaje-animado-jugando-videojuegos-pantalla-tv-ilustracion-generada-ia_866663-47107.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inicio{
+    text-align: center;
+    color: white;
+ }
+ .gaming{ 
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .pie{ 
+    text-align: center;
+    color: white;
+    text-decoration: none;
+     margin-top: 40px;
+ }
+ .pie a{
+   color: blue;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+       margin: 10px;
+ }
+ .inicio{ 
+   font-size: 50px;
+ }
+ .iconos a{
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    
+}
+.iconos{
+   text-align: center;
+   margin-top: 100px;
+ }
+.foto{ 
+  width: 500px;
+}
+.blog{ 
+   text-align: center;
+   color: white;
+}
+.pie2 a{
+   text-align: center;
+   text-decoration: none;
+   color: blue;
+      margin: 10px;
+ }
+ .pie2{ 
+   text-align: center;
+   margin: 20px;
+   font-size: 25px;
+ }
+ .titulo2{ 
+   text-align: center;
+   color: white;
+   font-size: 50px;
+ }
+ p{
+    line-height: 25px;
+    text-align: center;
+     width: 1200px;
+    margin: auto;
+}
+.lorem{
+   text-align: center;
+ }
+ .iconos2 a{
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    
+}
+.pie3{ 
+   text-align: center;
+   margin: 20px;
+   font-size: 25px;
+  
+}
+.titulo3{ 
+   text-align: center;
+   font-size: 50px;
+   color: white;
+}
+.pie3 a{ 
+   text-decoration: none;
+   color: blue;
+    margin: 10px;
+}
+.galeria{
+   display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+   width: 1000px;
+    margin: auto;
+ }
+ .galeria img{
+
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+p{
+    width: 900px;
+}
+.videos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+.lorem1{
+   color: white;
+ }
+ .juegos{
+   text-align: center;
+   color: aqua;
+ }
+ .iconos6{ 
+   color: white;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+ }
+
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.info,
+.formulario{
+    width: 45%;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td{
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+img{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 12px;
+    background: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.mapa{
+    width: 90%;
+    margin: 30px auto;
+}
+
+
+
+.galeria-chica {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    width: 1001px;
+    justify-content: space-between; 
+    align-items: flex-start;
+    text-align: center;
+}
+
+.foto-chica {
+    width: 50%;
+    height: auto;
+    border: 2px solid #f0a85d; 
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.foto-larga {
+    width: 10%;
+    height: 10%;
+    object-fit: cover; 
+    text-align: right;
+}
+
+
+.footer-nosotros {
+    background-color: #112240;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-top: 50px;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.redes-sociales img {
+    width: 30px; 
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+.nosotros {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 100%;
+
+}
+#somos{
+    text-align:left;
+    font-size: 30px;
+   
+}
+.br{
+    width: 60%;
+    color: #f0a85d;
+}
+.conte{
+    flex:1; 
+    text-align: right;
+}
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>promociones</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="pie3">
+<a href="index.html">Inicio</a>
+<a href="blog.html">Blog</a>
+<a href="galeria.html">Galeria</a>
+<a href="videos.html">Videos</a>
+<a href="contactos.html">contactos</a>
+<a href="nosotros.html">nosostros</a>
+<a href="promociones.html">promociones</a>
+<a href="combos.html">combos</a>
+    </nav>
+     <h1 style="text-align: center; padding-top:1px ; color: darkorange;">Promociones Exclusivas</h1>
+     <p style="color:mediumspringgreen;">LOS UNICOS EN VENTA DE JUEGOS ORIGINALES</p>
+<div class="promo" style="background-color:gold;">
+     <h1 style="color: aqua;">2x1 en Juegos</h1>
+    <p style="color:blue;">solo por esta semana llevate el segundo juego gratis¡</p>
+
+   <button style="color: brown ; background-color:fuchsia;" onclick="mostrar()">Reclamar Cupón</button>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+function mostrar() {
+    Swal.fire({
+        icon: 'success',
+        title: '¡Cupón Activado!',
+        html: 'Muestra este código en caja:<br><br><b>GAME2026</b>',
+        confirmButtonText: 'Entendido'
+    });
+}
+</script>
+</div>
+<div class="iconos">
+<a href="#"><i class="fa-brands fa-twitter"></i></a>
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+<a href="#"><i class="fa-brands fa-tiktok"></i></a>
+<a href="#"><i class="fa-brands fa-facebook"></i></a>
+</div>
+    </div>
+</body>
+</html>
